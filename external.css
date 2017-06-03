@@ -1,6 +1,6 @@
 body {
 	display: block;
-    margin: 0;
+  margin: 0;
 	padding: 0;
 	background: black;
 		background-image: initial;
@@ -14,11 +14,11 @@ body {
 		background-clip: initial;
 		background-color: black;
 }
-.background {
-	width: 100%;
-    height: 100%;
-    position: fixed;
-    left: 0;
+background {
+	width: 100%;    	
+	height: 100%;
+  position: fixed;
+ 	left: 0;
 	z-index: -9999;
     background: linear-gradient(180deg, #fff5e6, #ffccff, #e6ffff);
 		background-image: linear-gradient(
@@ -46,7 +46,7 @@ body {
 		animation-fill-mode: initial;
 		animation-play-state: initial;
 }
-@keyframes rat {
+keyframes rat {
 	0%{
 		background-position:50% 0%;
 	}
@@ -57,7 +57,7 @@ body {
 		background-position:50% 0%;
 	}
 }
-.home {
+home {
 	width: 250px;
 	height: 250px;
 	margin: 0 0 -100 600;
@@ -67,7 +67,7 @@ body {
 		margin-left: 600px;
 	text-align: center;
 }
-.title {
+title {
 	display:block;
 	width: 950px;
     height: 170px;
@@ -82,7 +82,7 @@ body {
     color: white;
     letter-spacing: 2px;
 }	
-.page {
+page {
     width: 950px;
     height: 170px;
     margin: 0 auto;
@@ -95,16 +95,16 @@ body {
     letter-spacing: 2px;
 	word-spacing: 50px; 
 }
-.page ul li {
+page ul li {
     display: inline-block;
     margin-right: 19px;
     vertical-align: middle;
 }
-.page ul li a, a:visited {
+page ul li a, a:visited {
 	color: white;
 	opacity: 0.5;
 }
-.welc {
+welc {
 	padding-top: 100px;
 	font-size: 25px;
     font-family: "league-gothic",sans-serif;
@@ -112,7 +112,7 @@ body {
     color: grey;
 	opacity:0.5;
 }
-#container {
+container {
 	width: /*@post-width=*/750px/*@*/;
 	margin: -145 0 0 310;
 		margin-top: -145px;
@@ -154,11 +154,11 @@ body {
 		border-image-outset: initial;
 		border-image-repeat: initial;
 }
-.me {
+me {
 	width: 160px;
 	height: 160px;
 }
-#me {
+me {
 	margin-top: -140px;
 	margin-right: 45px;
 	margin-left: 170px;
@@ -169,7 +169,7 @@ body {
     text-align: justify;
 	text-justify: inter-word;
 }
-#cont1 {
+cont1 {
 	margin:;
 		margin-top: 50px;
 		margin-right: 0px;
@@ -177,21 +177,21 @@ body {
 		margin-left: 30px;
 	opacity:0.5;	
 }	
-.sns {
-    margin: 0 auto;
+sns {
+	margin: 0 auto;
 	padding: 0 -100;
 		padding-top: 0px;
 		padding-bottom:-100px;
 }
-.sns ul li {
+sns ul li {
 	display: inline-block;
     margin-right: 19px;
     vertical-align: middle	
 }
-.sns ul li a, a:visited a:active {
+sns ul li a, a:visited a:active {
 	opacity: 0.5;
 }
-.sns ul li img {
+sns ul li img {
 	width: 50px;
 	height:50px;
 }
@@ -208,8 +208,8 @@ a, a:visited, a:active {
 ul li a:hover {
 	opacity: 1;
 }
-.copyright {
-    display: block;
+copyright {
+	display: block;
     margin: 50 auto 10 auto;
 		margin-top: 50px;
 		margin-right: auto;
