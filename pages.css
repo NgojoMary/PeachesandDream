@@ -1,0 +1,251 @@
+body {
+	display: block;
+    margin: 0;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+    padding: 0;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+    background: black;
+		background-image: initial;
+		background-position-x: initial;
+		background-position-y: initial;
+		background-size: initial;		
+		background-repeat-x: initial;
+		background-repeat-y: initial;
+		background-attachment: initial;
+		background-origin: initial;
+		background-clip: initial;
+		background-color: black;
+}
+.background {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+	z-index: -9999;
+    background: linear-gradient(180deg, #fff5e6, #ffccff, #e6ffff);
+		background-image: linear-gradient(
+		#fff5e6(0, 180, 202), 
+		#ffccff(252, 208, 1), 
+		##e6ffff(17, 45, 142));
+		background-position-x: initial;
+		background-position-y: initial;
+		background-size: 600% 600%;		
+		background-repeat-x: initial;
+		background-repeat-y: initial;
+		background-attachment: initial;
+		background-origin: initial;
+		background-clip: initial;
+		background-color: initial;
+	filter:
+		progid:DXImageTransform.Microsoft.Gradient(startColorStr="#fff5e6", 
+		endColorStr="#e6ffff");
+	background-size: 600% 600%;
+		webkit animation: rat 60s ease infinite;
+		moz animation: rat 60s ease infinite;
+	animation: rat 60s ease infinite;
+		animation-name: rat;
+		animation-duration: 60s;
+		animation-timing-function: ease;
+		animation-delay: initial;
+		animation-iteration-count: infinite;
+		animation-direction: initial;
+		animation-fill-mode: initial;
+		animation-play-state: initial;
+}
+@keyframes rat {
+	0%{
+		background-position:50% 0%;
+			background-position-x: 50%;
+			background-position-y: 0%;
+	}
+	50%{
+		background-position:50% 100%;
+			background-position-x: 50%;
+			background-position-y: 100%;
+	}
+	100%{
+		background-position:50% 0%;
+			background-position-x: 50%;
+			background-position-y: 0%;
+	}
+}
+.home {
+	width: 150px;
+	height: 150px;
+	margin: 0 0 -100 600;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: -120px;
+		margin-left: 650px;
+	text-align: center;
+}
+.home img, a:hover {
+	opacity: 0.5
+}
+.title {
+	display:block;
+	width: 950px;
+    height: 170px;
+    margin: 0 auto -40 250;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: -50px;
+		margin-left: 310px;
+	padding-top: 60px;
+    font-size: 130px;
+    font-family: "league-gothic",sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}	
+.page {
+    width: 950px;
+    height: 170px;
+    margin: 0 auto;
+	padding: 0 20;
+		padding-top: 0px;
+		padding-bottom:20px;
+    font-family: "league-gothic",sans-serif;
+    color:  white;
+	font-size: 35px;
+    letter-spacing: 2px;
+	word-spacing: 50px; 
+}
+.page ul li {
+    display: inline-block;
+    margin-right: 19px;
+    vertical-align: middle;
+}
+.page ul li a, a:visited {
+	color: white;
+	opacity: 0.5;
+}
+a.poems {
+	opacity: 1 !important;
+}
+a.wl {
+	opacity: 1 !important;
+}
+a.rl {
+	opacity: 1 !important;
+}
+ul, li {
+    text-align: center;
+}
+a, a:visited, a:active {
+	text-decoration: none;
+		text-decoration-line: none;
+		text-decoration-style: initial;
+		text-decoration-color: initial;
+    color: white;
+}
+ul li a:hover {
+	opacity: 1;
+}
+#container {
+	display:block;
+	width: /*@post-width=*/750px/*@*/;
+	margin: -145px 0px 0px 300px;
+		margin-top: -145px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 300px;
+    padding: 2px;
+		padding-top: 2px;
+		padding-right: 2px;
+		padding-bottom: 100px;
+		padding-left: 2px;
+	background: #ffffff;
+		background-image: initial;
+		background-position-x: initial;
+		background-position-y: initial;
+		background-size: initial;
+		background-repeat-x: initial;
+		background-repeat-y: initial;
+		background-attachment: initial;
+		background-origin: initial;
+		background-clip: initial;
+		background-color: rgb(255, 255, 255);
+	border: none;
+		border-top-color: initial;
+		border-top-style: none;
+		border-top-width: initial;
+		border-right-color: initial;
+		border-right-style: none;
+		border-right-width: initial;
+		border-bottom-color: initial;
+		border-bottom-style: none;
+		border-bottom-width: initial;
+		border-left-color: initial;
+		border-left-style: none;
+		border-left-width: initial;
+		border-image-source: initial;
+		border-image-slice: initial;
+		border-image-width: initial;
+		border-image-outset: initial;
+		border-image-repeat: initial;
+	
+}
+.container {
+    width: 950px;
+    height: 170px;
+    margin: 0 auto;
+	padding: 0 20;
+		padding-top: 0px;
+		padding-bottom:20px;
+    font-family: "league-gothic",sans-serif;
+    color:  white;
+	font-size: 35px;
+    word-spacing: 5px; 
+}
+.container ul li {
+    display: block;
+    margin-right: 19px;
+    vertical-align: middle;
+}
+.container ul li a, a:visited {
+	color: #99ffff;
+	opacity: 1;
+}
+.container ul li a:hover {
+	opacity:0.5;
+}
+#cont {
+	margin-top: -10px;
+	margin-right: 45px;
+	margin-left: 50px;
+}
+.clamp {
+	width: 400px;
+	height:100px;
+}
+.watch {
+	width:400px;
+	height:200px;
+}
+.books {
+	width:400px;
+	height:400px;
+}
+.copyright {
+    display: block;
+    margin: 50 auto 10 auto;
+		margin-top: 50px;
+		margin-right: auto;
+		margin-bottom: 10px;
+		margin-left: auto;
+	padding: 10 auto 0 auto;
+		padding-top: 10px;
+		padding-right: auto;
+		padding-bottom: 0px;
+		padding-left: auto;
+	font-size: 12px;
+    text-align: center;
+    font-family: Helvetica,Arial, sans-serif;
+    color: white;
+}
