@@ -113,7 +113,7 @@ body {
 	opacity:0.5;
 }
 #container {
-	width: /*@post-width=*/750px/*@*/;
+	width: /*@post-width=*/800px/*@*/;
 	margin: -145 0 0 310;
 		margin-top: -145px;
 		margin-right: 0px;
